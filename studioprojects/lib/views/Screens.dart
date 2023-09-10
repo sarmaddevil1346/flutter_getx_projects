@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:studioprojects/views/components/default_list_tile.dart';
-import 'components/default_snack_bar.dart';
 import 'components/floating_action_button.dart';
 import 'components/get_bottom_sheet.dart';
 import 'components/get_dialouge_box.dart';
@@ -41,19 +39,6 @@ class IntroGetX extends StatelessWidget {
         ),
       ),
       floatingActionButton: const FloatingActionButtonWidget(),
-    );
-  }
-}
-
-class SnackBarScreen extends StatelessWidget {
-  const SnackBarScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const DefaultListTile(
-      listTitle: "GetX SnackBar",
-      listSubTitle: "Do you want to show SnackBar",
-      press:  getXSnackBar
     );
   }
 }
