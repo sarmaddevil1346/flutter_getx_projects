@@ -7,6 +7,7 @@ import 'components/get_navigators.dart';
 import 'components/passing_data_to_next_screen.dart';
 import 'components/passing_data_with_routes.dart';
 import 'components/routes.dart';
+import 'components/snack_bar.dart';
 
 class IntroGetX extends StatelessWidget {
   const IntroGetX({super.key});
