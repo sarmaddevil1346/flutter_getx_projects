@@ -3,6 +3,8 @@ import 'package:get/get.dart';
 import 'package:studioprojects/views/Screens.dart';
 import 'package:studioprojects/views/components/get_height.dart';
 import 'package:studioprojects/views/components/routes_screen.dart';
+import 'package:studioprojects/views/increament_example/increament_getx.dart';
+import 'package:studioprojects/views/opacity_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,11 +22,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: false,
       ),
-      home: const IntroGetX(),
+      home: const OpacityExample(),
       getPages: [
         GetPage(
           name: "/",
-          page: () => const IntroGetX(),
+          page: () => const OpacityExample(),
         ),
         GetPage(
           name: "/secondScreen",

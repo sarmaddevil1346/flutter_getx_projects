@@ -12,14 +12,16 @@ class _GetXIncrementState extends State<GetXIncrement> {
   final IncrementController controller = Get.put(IncrementController());
   @override
   Widget build(BuildContext context) {
+    print("rebuild");
     return Scaffold(
       body: Center(
-        child: Text("Tapped${controller.counter}"),
+        child: Obx(() {
+          return Text("Tapped${controller.counter}");
+        })
       ),
       floatingActionButton: FloatingActionButton(onPressed: () {
-        setState(() {
-          controller.increment()  ;
-        });
+        controller.increment()  ;
+
       },
 
       ),
