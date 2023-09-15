@@ -14,7 +14,6 @@ class _OpacityExampleState extends State<OpacityExample> {
   OpacityController opacityController1 = Get.put(OpacityController());
   @override
   Widget build(BuildContext context) {
-    print("kdk");
     return Scaffold(
       body: Column(
         children: [
