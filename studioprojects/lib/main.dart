@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:studioprojects/views/components/get_height.dart';
 import 'package:studioprojects/views/components/routes_screen.dart';
+import 'package:studioprojects/views/favourite_example/favourite_screen.dart';
+import 'package:studioprojects/views/image_picker_screen/image_picker.dart';
 import 'package:studioprojects/views/opacity_example/opacity_example.dart';
 import 'package:studioprojects/views/switch_example/switch_screen.dart';
 
@@ -21,11 +23,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: false,
       ),
-      home: const SwitchExample(),
+      home: const ImagePickerExample(),
       getPages: [
         GetPage(
           name: "/",
-          page: () => const SwitchExample(),
+          page: () => const ImagePickerExample(),
         ),
         GetPage(
           name: "/secondScreen",
