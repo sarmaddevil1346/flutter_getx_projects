@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../second_screen.dart';
+import '../navigation_screen/second_screen.dart';
 import 'default_list_tile.dart';
 
 class PassingDataToNextScreen extends StatelessWidget {

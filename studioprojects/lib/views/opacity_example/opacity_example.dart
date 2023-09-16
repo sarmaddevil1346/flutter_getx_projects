@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../GetXController/opacity_controller.dart';
+import '../../GetXController/opacity_controller.dart';
 
 class OpacityExample extends StatefulWidget {
   const OpacityExample({super.key});

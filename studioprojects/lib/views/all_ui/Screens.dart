@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'components/floating_action_button.dart';
-import 'components/get_bottom_sheet.dart';
-import 'components/get_dialouge_box.dart';
-import 'components/get_media_query.dart';
-import 'components/get_navigators.dart';
-import 'components/passing_data_to_next_screen.dart';
-import 'components/passing_data_with_routes.dart';
-import 'components/routes.dart';
-import 'components/snack_bar.dart';
+import '../components/floating_action_button.dart';
+import '../components/get_bottom_sheet.dart';
+import '../components/get_dialouge_box.dart';
+import '../components/get_media_query.dart';
+import '../components/get_navigators.dart';
+import '../components/passing_data_to_next_screen.dart';
+import '../components/passing_data_with_routes.dart';
+import '../components/routes.dart';
+import '../components/snack_bar.dart';
 
 class IntroGetX extends StatelessWidget {
   const IntroGetX({super.key});

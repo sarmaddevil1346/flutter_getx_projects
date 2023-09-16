@@ -14,13 +14,13 @@ class RoutesScreen extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("This is a message Passed by first activity  " + Get.arguments[0],
-            style: const TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.bold
-            ),
+          Text(
+            "This is a message Passed by first activity  " + Get.arguments[0],
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
           ),
-          const SizedBox(height: 30,),
+          const SizedBox(
+            height: 30,
+          ),
           Center(
             child: ElevatedButton(
                 onPressed: () {
