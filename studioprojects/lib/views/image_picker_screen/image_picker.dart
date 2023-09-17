@@ -26,7 +26,7 @@ class _ImagePickerExampleState extends State<ImagePickerExample> {
                         File(imagePickerController.imagePath.toString()))
                     : null,
               ),
-              TextButton(onPressed: () => imagePickerController.getImage(), child: Text("Pick The Image"))
+              TextButton(onPressed: () => imagePickerController.getImage(), child: const Text("Pick The Image"))
             ],
           )),
     );

@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../GetXController/increament_controller.dart';
@@ -12,7 +13,9 @@ class _GetXIncrementState extends State<GetXIncrement> {
   final IncrementController controller = Get.put(IncrementController());
   @override
   Widget build(BuildContext context) {
-    print("rebuild");
+    if (kDebugMode) {
+      print("rebuild");
+    }
     return Scaffold(
       body: Center(
         child: Obx(() {
